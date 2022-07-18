@@ -192,3 +192,50 @@ nav {
 .course-img {
     width: 224px;
 }
+
+.course-time {
+    width: 94px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #FFE4E8;
+    color: #FF4A60;
+}
+
+/* course container style end */
+
+/* resposive start */
+@media only screen and (max-width: 767px) {
+    .menu ul {
+        display: none;
+    }
+
+    .container-top,
+    .course-container {
+        width: 90%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .menu ul {
+        display: none;
+    }
+
+    .container-top,
+    .course-container {
+        width: 90%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* resposive end */
